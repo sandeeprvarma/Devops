@@ -63,4 +63,15 @@ kubectl describe service kubernetes
 ```
 kubectl logs -n kube-system <metrics-server-pod-name>
 ```
-   
+14. Get deployemnet YAML  
+```
+kubectl get deployments -n kube-system metrics-server -o yaml
+```
+15. Edit deployment of a pod
+```
+kubectl edit deployments -n kube-system metrics-server -o yaml
+```
+16. descibe or get details of pod using namespace
+```
+kubctl describe pod <pod_name> -n <namespace>
+```
