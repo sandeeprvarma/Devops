@@ -1,28 +1,28 @@
 ##Basic commands
 1. How to switch context
-   ```
+```
 aws eks update-kubeconfig --name=<namespce> --profile <aws_profile>
-   ```
+```
 2. get current context of k8
-   ```
+```
 kubectl config current-context
-   ```
-3. create a new pod with nginx image 
-  ```
+```
+3. create a new pod with nginx image
+```
 kubectl run pod_name --image=nginx
-  ```
+```
 4. get all ready pods
-  ```
+```
 kubectl get pods
-  ```
+```
 5. Additional info such as where node is running and ip address etc
-  ```
+```
 Kubectl get pods -o wide
-  ```
+```
 6. Provide detailed infor of pod
-  ```
+```
 kubctl describe pod <pod_name>
-  ```
+```
 7. Delete pod using pod name
 ```
 kubectl delete pod <pod_name>
