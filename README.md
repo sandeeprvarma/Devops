@@ -1,2 +1,2 @@
 # Devops
-Repos contains all the devops related command and notes
+Repos contains the roadmap I am following and learings to become a DevOps.
